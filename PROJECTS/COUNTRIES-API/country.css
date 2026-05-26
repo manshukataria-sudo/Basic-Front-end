@@ -1,0 +1,87 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --element-color: white;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+body.dark {
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 100%, 100%);
+  --element-color: hsl(209, 23%, 22%);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.fa-house {
+  cursor: pointer;
+}
+.country-detail-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-top: 32px;
+}
+.back-button {
+  box-shadow: 0 0 4px rgba(128, 128, 128, 0.658);
+  border-radius: 4px;
+  padding: 6px 20px;
+  padding-left: 14px;
+  cursor: pointer;
+  margin-top: 32px;
+  background-color: var(--element-color);
+}
+.country-detail {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  /* font-size: 12px; */
+  justify-content: center;
+}
+.country-detail img {
+  width: 36%;
+  border: 1px solid #ddd;
+}
+.detail-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 140px;
+  row-gap: 10px;
+  column-gap: 64px;
+}
+.detail-text p {
+  margin: 0;
+}
+.border-countries {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.border-country {
+  box-shadow: 0 0 4px rgba(128, 128, 128, 0.658);
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-inline: 4px;
+  font-size: 14px;
+  background-color: var(--element-color);
+}
+@media (max-width: 818px) {
+  .country-detail {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 32px;
+  }
+  .country-detail img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .detail-text {
+    max-height: unset;
+  }
+}

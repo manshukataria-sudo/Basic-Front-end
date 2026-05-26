@@ -1,0 +1,53 @@
+#body{
+    width: 90%;
+    border: 1px solid black;
+}
+#head{
+    width: 70%;
+    border: 1px solid black;
+}
+
+
+
+
+.boxA{
+    border: 6px solid black;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: bottom;
+    text-align: center;
+}
+
+.boxB{
+    border: 6px solid black;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.boxC{
+    border: 6px solid black;
+    width: 400px;
+    height: 100px;
+    margin: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    /* padding-top: 4px; */
+}
+
+
+#org{
+    background-color: orange;
+}
+#wht{
+    background-color: white;
+}
+#grn{
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,24 @@
+#wrapper{
+    border: 2px solid;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+
+.container{
+    border: 2px solid;
+    position: relative;
+    
+}
+
+
+
+
+#background{
+}
+#foreground{
+    position: absolute;
+    bottom: 100px;
+}

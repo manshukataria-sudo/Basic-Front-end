@@ -1,0 +1,14 @@
+.box{
+    width: 300px;
+    /* max-height: fit-content; */
+    max-height: 100px;
+    min-height: 75px;
+    border: 1px solid;
+}
+
+#boxB{
+    min-width: 150px;
+    max-width: 200px;
+    height: 100px;
+    border: 1px solid;
+}

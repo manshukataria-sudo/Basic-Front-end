@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>String transformers</h1>
+      <input
+        class="string-input"
+        type="text"
+        placeholder="Type something to transform..."
+        value="this is a normal sentence to transform"
+      />
+      <p class="instruction">Type any text to see it transformed in different formats below</p>
+    </div>
+
+    <div class="container">
+      <div class="transformer">
+        <p class="case-name">Lower Case</p>
+        <div class="lower-case inner-text">
+          this is a normal sentence to transform
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Upper Case</p>
+        <div class="upper-case inner-text">
+          THIS IS A NORMAL SENTENCE TO TRANSFORM
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Camel Case</p>
+        <div class="camel-case inner-text">
+          thisIsANormalSentenceToTransform
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Pascal Case</p>
+        <div class="pascal-case inner-text">
+          ThisIsANormalSentenceToTransform
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Snake Case</p>
+        <div class="snake-case inner-text">
+          this_is_a_normal_sentence_to_transform
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Kebab Case</p>
+        <div class="kebab-case inner-text">
+          this-is-a-normal-sentence-to-transform
+        </div>
+      </div>
+      <div class="transformer">
+        <p class="case-name">Trim Spaces</p>
+        <div class="trim-spaces inner-text">
+          thisisanormalsentencetotransform
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

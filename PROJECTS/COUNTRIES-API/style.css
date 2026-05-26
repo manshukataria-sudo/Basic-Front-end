@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0px;
+  --background-color: white;
+  --text-color: black;
+  --element-color: white;
+  --shadow-color: #f2f2f2;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+body.dark {
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 100%, 100%);
+  --element-color: hsl(209, 23%, 22%);
+  --shadow-color: unset;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.header-container {
+  box-shadow: 0 2px 4px 3px var(--shadow-color);
+  padding-inline: 24px;
+  background-color: var(--element-color);
+}
+.theme-switcher {
+  cursor: pointer;
+}
+.search-filter-container {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.search-container {
+  box-shadow: 0 0 4px #999;
+  max-width: 300px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #999;
+  background-color: var(--element-color);
+  color: var(--text-color);
+}
+.search-container input {
+  border: none;
+  outline: none;
+  background-color: var(--element-color);
+  color: var(--text-color);
+}
+.search-container input::placeholder {
+  color: #999;
+}
+.filter-by-region {
+  width: 200px;
+  box-shadow: 0 0 4px #999;
+  border: none;
+  outline: none;
+  padding: 0 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--element-color);
+  color: var(--text-color);
+}
+main {
+  padding: 24px;
+}
+.title {
+  font-weight: 800;
+}
+.countries-container {
+  max-width: 1150px;
+  margin-inline: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.country-card {
+  box-shadow: 0 2px 4px 3px var(--shadow-color);
+  max-width: 230px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 1rem;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--element-color);
+}
+.country-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 4px 3px var(--shadow-color);
+}
+.country-card img {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.card-text {
+  padding-inline: 1rem;
+  font-size: 12px;
+}
+
+@media (max-width: 818px) {
+  .countries-container {
+    justify-content: center;
+  }
+  .header-content {
+    font-size: 14px;
+  }
+}

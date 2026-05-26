@@ -1,0 +1,33 @@
+#html{
+    border: 1px solid black;
+    width: 80%;
+}
+#body{
+    border: 1px solid black;
+    width: 80%;
+}
+#head{
+    border: 1px solid black;
+    width: 80%;
+}
+
+
+
+#org{
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#wht{
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#grn{
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}

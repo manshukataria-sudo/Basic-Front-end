@@ -1,0 +1,67 @@
+#para1{
+    position: static;
+}
+#head1{
+    position: static;
+}
+#head2{
+    position: static;
+}
+
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    background-color: aqua;
+    display: inline-block;
+}
+#box3{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#box4{
+    position: relative;
+    right: 100px;
+}
+
+/* #box1{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    right: 10px;
+    left: 8px;
+    left: -10px;
+} */
+
+.wrapper{
+    border: 1px solid black;
+    height: 1000px;
+    background-color: aqua;
+}
+
+.abs{
+    
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: aliceblue;
+}
+.abs2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#box1{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}

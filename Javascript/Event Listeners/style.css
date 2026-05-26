@@ -1,0 +1,34 @@
+.container {
+  color: green;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card {
+  width: 40px;
+  height: 40px;
+  font-size: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: cadetblue;
+  color: black;
+}
+.add-card {
+  width: 40px;
+  height: 40px;
+  font-size: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  color: black;
+  border-radius: 100%;
+}

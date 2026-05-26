@@ -1,0 +1,41 @@
+.box1 {
+  width: 200px;
+  height: 125px;
+  background-image: linear-gradient(
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+
+.box2 {
+  width: 200px;
+  height: 125px;
+  background-image: linear-gradient(
+    /* to right, */ /* to left, */ /* to top, */ /* to bottom right, */
+      /* to left bottom, */ /* 45deg, */ /* 90deg, */ 180deg,
+    rgb(230, 149, 230),
+    rgb(208, 160, 243),
+    rgb(167, 167, 246),
+    rgb(139, 244, 139),
+    rgb(255, 255, 150),
+    rgb(255, 201, 99),
+    rgb(255, 111, 111)
+  );
+}
+
+.box3 {
+    width: 200px;
+    height: 125px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(0, 0, 255, 1)
+  );
+}
+
+

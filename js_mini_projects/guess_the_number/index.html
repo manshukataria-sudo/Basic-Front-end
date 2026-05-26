@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Guess the number</h1>
+    <hr />
+    <div class="wrapper">
+      <div class="instructions">
+        <p>I'm thinking of a number between 0 and 100. Can you guess it?</p>
+        <p>You have <span class="guess-count">10</span> guesses remaining.</p>
+      </div>
+      <div class="input">
+        <label for="guess"><b>Your guess (0-100):</b></label
+        ><br />
+        <input
+          type="number"
+          id="guess"
+          placeholder="Enter a number"
+          min="0"
+          max="100"
+          required
+        />
+        <p>Enter a number between 0 and 100</p>
+      </div>
+      <div class="button-container">
+        <button class="enable">Submit</button>
+        <button class="disable" disabled>New Game</button>
+      </div>
+      <div class="guess-result">
+        <h4 class="hint"></h4>
+        <p class="guesses"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+  font-family: cursive;
+  text-align: center;
+}
+.joke-button{
+    cursor: pointer;
+}
+.joke-button:disabled{
+    cursor: not-allowed;
+}

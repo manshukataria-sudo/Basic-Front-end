@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin-bottom: 3rem;
+    /* color: rgb(227,96,96); */
+}
+.color-container{
+    border: 2px solid black;
+    margin: 1rem;
+    min-width: 60%;
+    min-height: 12rem;
+}
+.color-container p{
+    text-align: center;
+}

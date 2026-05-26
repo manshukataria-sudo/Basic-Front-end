@@ -1,0 +1,10 @@
+h2{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    direction: rtl;
+    text-shadow: 1px 2px gray;
+    word-spacing: 3px;
+    border: 2px solid black;
+    border-style: double;
+}

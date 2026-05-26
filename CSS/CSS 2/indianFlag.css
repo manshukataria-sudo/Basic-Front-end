@@ -1,0 +1,24 @@
+#org {
+  width: 600px;
+  height: 175px;
+  border: 1px solid;
+  background-image: linear-gradient(white, orange);
+}
+#wht {
+  width: 600px;
+  height: 175px;
+  border: 1px solid;
+}
+#grn {
+  width: 600px;
+  height: 175px;
+  border: 1px solid;
+  background-image: linear-gradient(green, white);
+}
+#chkr {
+  width: 175px;
+  height: 100%;
+  border: 1px solid;
+  background-image: repeating-conic-gradient(blue 0deg 10deg, white 10deg 20deg,blue 20deg 30deg);
+  border-radius: 100%; 
+}

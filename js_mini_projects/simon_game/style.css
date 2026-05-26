@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.color-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.box {
+  border: 6px solid;
+  height: 140px;
+  width: 140px;
+  /* border-radius: 1.5rem; */
+  box-sizing: border-box;
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+}
+.color-1 {
+  background-color: #d44f74;
+  top: 0px;
+  left: 0px;
+}
+.color-2 {
+  background-color: #57a0b8;
+  top: 0px;
+  right: 0px;
+}
+.color-3 {
+  background-color: #fa8f3a;
+  left: 0px;
+  bottom: 0px;
+}
+.color-4 {
+  background-color: #7693f8;
+  right: 0px;
+  bottom: 0px;
+}
+.game-over{
+  visibility: hidden;
+}
+.game-over span{
+  color: red;
+}
+@media (max-width: 320px) {
+    .color-container{
+        position: unset;
+        width: unset;
+        height: unset;
+    }
+    .box{
+        position: unset;
+        margin: 0.5rem;
+    }
+}

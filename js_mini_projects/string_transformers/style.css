@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.header {
+  text-align: center;
+}
+.string-input {
+  width: 90%;
+  padding: 8px 16px;
+  max-width: 600px;
+  border: 2px solid #e2e8f0;
+  font-size: 1rem;
+  border-radius: 4px;
+  max-width: 600px;
+}
+.instruction {
+  font-size: 14px;
+  color: #4a5568;
+}
+.transformer {
+  border: 1.5px solid rgba(128, 128, 128, 0.162);
+  padding: 1rem;
+  padding-top: 10px;
+  margin: 1rem;
+  border-radius: 4px;
+  background-color: #f8fafc;
+}
+.transformer:hover {
+  box-shadow: 0 2px 8px 1px rgba(128, 128, 128, 0.185);
+}
+.case-name {
+  margin-top: 3px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.inner-text {
+  border: 1.5px solid rgba(128, 128, 128, 0.162);
+  padding: 8px;
+  border-radius: 4px;
+  overflow-wrap: break-word;
+  min-height: 1rem;
+}
+.container {
+  max-width: 95%;
+  margin-inline: auto;
+}

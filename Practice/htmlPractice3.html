@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td,
+      tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        Student Information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th>City</th>
+        <th>House</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+
+    <form action="https://www.w3schools.com/tags/att_td_rowspan.asp">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+      <br />
+      <br />
+      <label for="gender">Sex: </label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="gender">Male</label>
+      <input type="radio" id="gender" name="gender" value="female"/>
+      <label for="gender">Female</label>
+      <br />
+      <br />
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option>Select an option</option>
+        <option value="india">India</option>
+        <option value="nepal">Nepal</option>
+        <option value="srilanka">Sri Lanka</option>
+        <option value="bhutan">Bhutan</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Message:</label>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="4"
+      ></textarea>
+      <br />
+      <br />
+      <input type="checkbox" name="sub" id="sub" />
+      <label for="sub">Subscribe?</label>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+
+    <br />
+    <br />
+    <form action="https://www.wikipedia.org">
+      <h1>Feedback Form</h1>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Write your name" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Write your email" id="email"/>
+      <br />
+      <br />
+      <label for="message">Message:</label>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Write Your message"
+        cols="30"
+        rows="4"
+      ></textarea>
+      <br /><br />
+      <label for="rate">Rate us our of 5</label>
+      <br>
+      <input type="radio" name="rate" id="one" value="1"/>
+      <label for="rate">1</label>
+      <br />
+      <input type="radio" name="rate" id="two" value="2"/>
+      <label for="rate">2</label>
+      <br />
+      <input type="radio" name="rate" id="three" value="3"/>
+      <label for="rate">3</label>
+      <br />
+      <input type="radio" name="rate" id="four" value="4"/>
+      <label for="rate">4</label>
+      <br />
+      <input type="radio" name="rate" id="five" value="5"/>
+      <label for="rate">5</label>
+      <br />
+      <br />
+      <button>Send your message!</button>
+    </form>
+  </body>
+</html>

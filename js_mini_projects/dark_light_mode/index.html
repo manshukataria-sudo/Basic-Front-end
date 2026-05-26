@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Dark mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <h2>Light & Dark mode</h2>
+    <div class="wrapper">
+      <label for="full-dark-mode">Dark mode : </label>
+      <!--due to for attribute label also becomes clickable-->
+      <input type="checkbox" id="full-dark-mode" />
+      <h3 class="">
+        The entire page color theme is controlled using CSS and JavaScript
+      </h3>
+      <label for="contained-dark-mode">Contained dark mode</label>
+      <input type="checkbox" id="contained-dark-mode" />
+      <div class="container">
+        <h3>The container color scheme is controlled by only CSS</h3>
+      </div>
+    </div>
+  </body>
+</html>

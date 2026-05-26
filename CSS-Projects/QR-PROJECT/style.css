@@ -1,0 +1,34 @@
+.wrapper{
+    min-height: 100vh;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-align: center;
+    font-size: small;
+}
+.code{
+    padding: 16px;
+    width: 100%;
+    max-width: 276px;
+    height: 434px;
+    background-color: white;
+    box-shadow: 1px 4px 20px 1px #0000002b;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+h4{
+    color: #273352;
+    font-size: larger;
+}
+#qr{
+    width: 100%;
+    border-radius: 10px;
+}
+#content{
+    color: #777C85;
+}
+.written{
+    padding: 10px;
+}

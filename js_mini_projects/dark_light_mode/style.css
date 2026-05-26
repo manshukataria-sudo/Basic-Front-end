@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.container {
+  border: 1px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: rgb(21, 14, 14);
+  color: rgb(209, 206, 206);
+}

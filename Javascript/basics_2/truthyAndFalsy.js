@@ -1,0 +1,24 @@
+if(false){
+    console.log(`Falsy`);
+}
+if(0){
+    console.log(`Falsy`);
+}
+if(-0){
+    console.log(`Falsy`);
+}
+if(0n){
+    console.log(`Falsy`);
+}
+if(""){
+    console.log(`Falsy`);
+}
+if(null){
+    console.log(`Falsy`);
+}
+if(undefined){
+    console.log(`Falsy`);
+}
+if(NaN){
+    console.log(`Falsy`);
+}

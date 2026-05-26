@@ -1,0 +1,23 @@
+.redText {
+  color: red;
+}
+.blueText {
+  color: blue;
+}
+.div {
+  background-color: pink;
+  border: 1px solid black;
+}
+/* .head{
+    color: aqua;
+    background-color: brown;
+} */
+.underLine {
+  text-decoration: 2px underline pink;
+}
+.blue-background{
+    background-color: blue;
+}
+.white-text{
+    color: white;
+}

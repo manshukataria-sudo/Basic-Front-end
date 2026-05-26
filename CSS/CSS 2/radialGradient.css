@@ -1,0 +1,20 @@
+.box1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: radial-gradient(violet, indigo, blue, green, yellow);
+}
+#box2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(circle, red,orange,yellow,green);
+
+}
+
+#box3{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(circle,red 10%,yellow 20%,orange 30%,blue);
+}

@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+}
+.jhumka {
+  height: 300px;
+  margin-bottom: -160px;
+}
+.hero-section {
+  /* min-height: 100vh; */
+  /* background-color: #f99501; */
+  font-size: 2.8rem;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(images/orange-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.audio-and-para {
+  max-width: 587px;
+  margin-left: 14rem;
+  margin-right: 4rem;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+.audio-container {
+  background-color: #fbd8a4;
+  max-width: max-content;
+  height: 60px;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.8rem;
+}
+.soulful-music {
+  margin: 0 6px;
+}
+.lakshmi-ganesha-section {
+  background-color: #f99501;
+  padding-top: 1rem;
+}
+.lakshmi-ganesha-section .greet {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+}
+.horizontal-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 1.5rem;
+}
+.horizontal-line {
+  height: 2px;
+  background-color: #fbd8a4;
+  width: 40%;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #fbd8a4;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+.pooja-room {
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin-inline: auto;
+}
+.greeting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.greeting-card {
+  background-color: white;
+  border-radius: 24px;
+  max-width: 500px;
+  font-size: 2rem;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  padding: 4rem;
+}
+.greeting-container img {
+  max-width: 300px;
+  margin-left: -6.5rem;
+}
+.lakshmi-ganesha-card {
+  background-color: #fff6e9;
+  border-radius: 24px;
+  padding: 1rem;
+  display: flex;
+  max-width: 90%;
+  margin-inline: auto;
+}
+.lakshmi-ganesha-card img {
+  width: 50%;
+}
+.diwali-wish {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-left: 3rem;
+}
+.the-end {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+.made-by{
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 1rem;
+  text-align: right;
+}
+@media (max-width: 840px) {
+  .hero-section {
+    font-size: 2rem;
+  }
+  .first-deepak {
+    display: block;
+    margin-left: auto;
+  }
+  .second-deepak {
+    display: none;
+  }
+  .jhumka {
+    margin-bottom: -30px;
+  }
+  .audio-and-para {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .greeting-card {
+    font-size: 1.5rem;
+    padding: 2rem;
+    max-width: 400px;
+  }
+  .greeting-container img {
+    max-width: 170px;
+    margin-left: -2.8rem;
+  }
+  .diwali-wish {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+  }
+  .the-end {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section {
+    font-size: 24px;
+  }
+  .first-deepak {
+    width: 100%;
+    max-width: 300px;
+  }
+  .soulful-music,
+  .music-bars {
+    display: none;
+  }
+  .lakshmi-ganesha-section .greet {
+    font-size: 2rem;
+  }
+  .greeting-card {
+    font-size: 1rem;
+    padding: 1.5rem;
+    max-width: 260px;
+  }
+  .greeting-container img {
+    max-width: 120px;
+    margin-left: -2.5rem;
+  }
+  .diwali-wish {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  .the-end {
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+}

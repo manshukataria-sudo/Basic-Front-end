@@ -1,0 +1,29 @@
+#head1 {
+  text-shadow: 60px 20px 0px cyan;
+}
+
+#head2 {
+  text-shadow: -4px -4px 5px #00ffff, 10px 10px 3px red;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: darkgrey;
+  box-shadow: 4px 4px red;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 1px black, -1px -1px black, 8px 8px 2px yellow;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    color: chocolate;
+    box-shadow: 4px 4px 2px 5px;
+    /* shadow color is same as text color by default */
+}
